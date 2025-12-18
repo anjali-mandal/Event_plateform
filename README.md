@@ -137,7 +137,10 @@ This ensures:
 Create a `.env` file inside the **server** folder:
 
 ```env
-MONGO_URI=mongodb://localhost:27017/event_platform
+
+DB_USERNAME=your_db_username
+DB_PASSWORD=your_db_password
+DB_CLUSTER=your_cluster_address
 JWT_SECRET=your_jwt_secret
 PORT=5000
 
